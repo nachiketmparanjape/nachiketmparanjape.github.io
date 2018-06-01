@@ -27,4 +27,7 @@ github: nachiketmparanjape
 instagram: nachiketparanjape
 tableau: nachiket.madhav.paranjape
 
+# Build settings
+markdown:       kramdown
+
 #Update all the sections by editing the files inside _includes folder.
