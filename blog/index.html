@@ -12,9 +12,14 @@ title: Nachiket's Blog
 				<h2 class="catalogue-title">{{ post.title }}</h2>
 				<div class="catalogue-line"></div>
 
-				<p>
+				<p class "short-description">
 					{{ post.content | strip_html | truncatewords: 30 }}
 				</p>
+				
+				.short-description {
+  					font-size: 16px;
+				}
+				
 			</div>
    		</a>
   	{% endfor %}
