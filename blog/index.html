@@ -11,14 +11,16 @@ title: Nachiket's Blog
 				<time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
 				<h2 class="catalogue-title">{{ post.title }}</h2>
 				<div class="catalogue-line"></div>
+				
+				<style type="text/css">
+				    .short-description 	{
+  					font-size: 16px;
+							}
+				</style>
 
 				<p class "short-description">
 					{{ post.content | strip_html | truncatewords: 30 }}
 				</p>
-				
-				.short-description {
-  					font-size: 16px;
-				}
 				
 			</div>
    		</a>
